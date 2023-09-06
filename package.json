@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "a multiple nestjs monorepo to test bun Nestjs compatibility",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nx run-many --target=dev",
+    "dev:node": "nx run-many --target=dev:node",
+    "build": "nx run-many --target=build"
   },
   "keywords": [
     "nestjs",
